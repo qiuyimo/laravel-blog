@@ -28,3 +28,23 @@ In MySqlConnector.php line 150:
 
 
 
+### Mac 升级后 git 不可用
+
+给 Mac 升级了, 之后使用 `git`, 提示:
+
+```shell
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+```
+
+解决方法，重装xcode command line：
+
+```shell
+$ xcode-select --install
+```
+
+或者
+
+```shell
+$ sudo xcode-select -switch /
+```
+
