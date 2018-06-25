@@ -1,9 +1,10 @@
 ---
-layout: post
 title: SSH 和 OpenSSH说明
-categories: 计算机原理
 description: SSH 和 OpenSSH说明
 keywords: Linux, 计算机原理
+create_time: 2016-11-13
+tag: Linux, 计算机原理
+category: 计算机原理
 ---
 
 ssh 的简介.

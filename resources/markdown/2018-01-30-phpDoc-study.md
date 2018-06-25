@@ -1,9 +1,10 @@
 ---
-layout: post
 title: 初探phpDoc
-categories: PHP
 description: 初探phpDoc
 keywords: PHP, phpDoc, phpDocumentor
+create_time: 2018-01-30
+tag: PHP, phpDoc, phpDocumentor
+category: PHP
 ---
 
 去年新开发的一个项目, 因为是一边摸索一般开发, 所以需求变换的也很快, 同时也是懒了, 就没有做接口文档.

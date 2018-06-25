@@ -1,9 +1,10 @@
 ---
-layout: post
 title: LNMP源码包一键安装
-categories: Linux
 description: LNMP源码包一键安装
 keywords: Linux, LNMP
+create_time: 2017-03-24
+tag: Linux, LNMP
+category: Linux
 ---
 
 今天给公司安装LNMP环境, 同事推荐用这个, 我刚开始还以为是rpm包的安装方式, 后来我看了一下, 是个很不错的选择. 是用shell脚本安装的源码包.

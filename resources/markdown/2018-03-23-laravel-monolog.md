@@ -1,9 +1,10 @@
 ---
-layout: post
 title: laravel中的monolog配置
-categories: PHP
 description: laravel中的monolog配置
-keywords: PHP, Laravel, Monolog 
+keywords: PHP, Laravel, Monolog
+create_time: 2018-03-23
+tag: PHP, Laravel, Monolog
+category: PHP
 ---
 
 之前写过一个直接使用 monolog 这个扩展包的使用方法, Laravel 框架自带 monolog.

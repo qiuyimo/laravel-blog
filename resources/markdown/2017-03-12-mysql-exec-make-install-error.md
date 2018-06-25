@@ -1,9 +1,10 @@
 ---
-layout: post
 title: mysql执行make intall后报错
-categories: MySQL
 description: mysql执行make intall后报错
 keywords: Linux, MySQL
+create_time: 2017-03-12
+tag: Linux, MySQL
+category: MySQL
 ---
 
 mysql执行make intall后报错: CMake Error at libmysqld/examples/cmake_install.cmake:58 (FILE): file INSTALL cannot copy file

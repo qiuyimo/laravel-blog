@@ -1,9 +1,10 @@
 ---
-layout: post
 title: phpize 报错
-categories: PHP
 description: phpize 报错
 keywords: PHP, phpize
+create_time: 2018-03-22
+tag: PHP, phpize
+category: PHP
 ---
 
 今天在 VPS 上安装 fileinfo 的扩展, 却提示错误.

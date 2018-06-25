@@ -1,9 +1,10 @@
 ---
-layout: post
 title: PHP的命名空间
-categories: PHP
 description: PHP的命名空间
 keywords: PHP, namespace
+create_time: 2017-03-31
+tag: PHP, namespace
+category: PHP
 ---
 
 php的命名空间在我以前的项目中没有使用过, 虽然也了解过, 所以今天特意弄了一下. 用起来还是挺方便的. 之前看TP的源码, 里面就是用的namespace, 所以了解一下还是很有必要的.

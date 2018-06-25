@@ -1,9 +1,10 @@
 ---
-layout: post
 title: 服务端安装memcache
-categories: Linux
 description: 服务端安装memcache, 以及报错
 keywords: Memcache
+create_time: 2016-11-23
+tag: Memcache
+category: Linux
 ---
 
 php开发环境已经搭建完毕, 然后再给php安装memcache的扩展. 主要用的是php自带的phpize命令.

@@ -1,9 +1,10 @@
 ---
-layout: post
 title: ./configure, make, make install的说明和作用
-categories: Linux
 description: ./configure, make, make install的说明和作用
 keywords: Linux, make, make install, configure
+create_time: 2017-03-12
+tag: Linux, make, make install, configure
+category: Linux
 ---
 
 Linux下源码包安装命令的作用详解. 以及报错后清除编译文件的命令. 

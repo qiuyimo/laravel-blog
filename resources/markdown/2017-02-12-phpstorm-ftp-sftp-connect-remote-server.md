@@ -1,9 +1,10 @@
 ---
-layout: post
 title: 使用phpstorm, ftp/sftp连接服务器远程开发
-categories: Tools
 description: 使用phpstorm, ftp/sftp连接服务器远程开发
 keywords: phpstorm, 远程开发
+create_time: 2017-02-12
+tag: phpstorm, 远程开发
+category: Tools
 ---
 
 # 使用phpstorm, ftp/sftp连接服务器远程开发

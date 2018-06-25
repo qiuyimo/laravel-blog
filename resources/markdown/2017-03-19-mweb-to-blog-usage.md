@@ -1,9 +1,10 @@
 ---
-layout: post
-title: 使用mweb写博客github pages的方法 
-categories: Linux
+title: 使用mweb写博客github pages的方法
 description: 用mweb写博客很早以前就开始了. 但是一直都是用文档库的方式写博客, markdown文章的名字都是一个时间戳, 最新改为了用GitHub pages写博客
 keywords: tools, mweb
+create_time: 2017-03-19
+tag: tools, mweb
+category: Linux
 ---
 
 用mweb写博客很早以前就开始了. 但是一直都是用文档库的方式写博客, markdown文章的名字都是一个时间戳, 最新改为了用GitHub pages写博客, 就需要用Jekyll规定的md名称. 还有图片存放的位置也固定好了. 所以又研究了一些mweb, 都是可以实现的. 

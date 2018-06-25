@@ -1,9 +1,10 @@
 ---
-layout: post
 title: php静态方法和非静态方法的使用场景
-categories: PHP
 description: php静态方法和非静态方法的使用场景
 keywords: PHP, static
+create_time: 2018-01-25
+tag: PHP, static
+category: PHP
 ---
 
 一直弄不清楚, 什么时候应该使用静态方法, 什么时候应该使用非静态方法.

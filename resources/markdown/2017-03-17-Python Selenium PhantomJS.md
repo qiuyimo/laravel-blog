@@ -1,9 +1,10 @@
 ---
-layout: post
 title: Python Selenium PhantomJS
-categories: Python
 description: Python Selenium PhantomJS
 keywords: Python, Selenium, PhantomJS
+create_time: 2017-03-17
+tag: Python, Selenium, PhantomJS
+category: Python
 ---
 
 # Python Selenium PhantomJS

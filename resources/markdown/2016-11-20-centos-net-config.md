@@ -1,9 +1,10 @@
 ---
-layout: post
-title:  CentOS 网络配置
-categories: Linux
+title: CentOS 网络配置
 description: CentOS 网络配置
 keywords: Linux, CentOS, Network
+create_time: 2016-11-20
+tag: Linux, CentOS, Network
+category: Linux
 ---
 
 CentOS 网络配置, 主要针对的是CentOS7以前的版本. CentOS7以后的版本命令有些差别, 但不是很大. 

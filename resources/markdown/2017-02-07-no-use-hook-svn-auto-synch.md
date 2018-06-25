@@ -1,9 +1,10 @@
 ---
-layout: post
 title: 不用钩子,svn自动同步的脚本
-categories: Tools
 description: 不用钩子,svn自动同步的脚本
 keywords: svn
+create_time: 2017-02-07
+tag: svn
+category: Tools
 ---
 
 看公司的svn自动同步脚本, 学习一下. 用的不是svn自带的钩子.

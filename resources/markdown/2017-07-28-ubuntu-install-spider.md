@@ -1,9 +1,10 @@
 ---
-layout: post
 title: ubuntu下的装php
-categories: Linux
 description: ubuntu下的装php
 keywords: linux
+create_time: 2017-07-28
+tag: linux
+category: Linux
 ---
 
 安装php源报错

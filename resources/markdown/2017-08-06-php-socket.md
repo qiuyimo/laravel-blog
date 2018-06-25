@@ -1,9 +1,10 @@
 ---
-layout: post
 title: php的socket
-categories: PHP
 description: php的socket
 keywords: PHP
+create_time: 2017-08-06
+tag: PHP
+category: PHP
 ---
 
 项目需要网卡绑定多个ip, 抓取页面时指定使用哪个IP. 所以用worerman做了ip的代理. 

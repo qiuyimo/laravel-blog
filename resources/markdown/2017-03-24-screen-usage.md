@@ -1,11 +1,10 @@
 ---
-layout: post
 title: screen的使用方法和应用场景
 category: Linux, PHP
 description: screen的使用方法和应用场景
 keywords: Linux, screen
 create_time: 2018-06-23 00:30:28
-tag: screen, linux
+tag: Linux, screen
 ---
 
 远程连接服务器后, 有的时候需要在后台运行一个服务, 有的时候服务器设置了自动断开, 怎么保证运行的命令不断开? 可以使用`screen`命令来实现. 

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 搭建svn服务器
 category: Tools
 description: 搭建svn服务器

@@ -1,9 +1,10 @@
 ---
-layout: post
 title: shell_script
-categories: Linux
 description: shell_script
 keywords: shell_script
+create_time: 2017-07-14
+tag: shell_script
+category: Linux
 ---
 
 简单记录shell, 现在用的很少了. 一般都用python.

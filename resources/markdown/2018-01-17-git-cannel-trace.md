@@ -1,9 +1,10 @@
 ---
-layout: post
 title: 已经提交到远程仓库的文件, 取消git的版本控制
-categories: Git
 description: 已经提交到远程仓库的文件, 取消git的版本控制
 keywords: Git, Linux
+create_time: 2018-01-17
+tag: Git, Linux
+category: Git
 ---
 
 git的命令太常用了. 但是, 有一些命令用的很少, 用到的时候手忙脚乱的. 特此记录. 方便以后查阅.

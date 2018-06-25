@@ -1,9 +1,10 @@
 ---
-layout: post
 title: yum常用命令
-categories: Linux
 description: yum常用命令
 keywords: Linux, CentOS
+create_time: 2016-11-20
+tag: Linux, CentOS
+category: Linux
 ---
 
 yum是CentOS中安装软件包最快捷的方法, 类似于`Mac`中的`brew`, `Ubuntu`中的`apt-get`, 这里列出了常用的命令. 

@@ -1,9 +1,10 @@
 ---
-layout: post
 title: 获取IPv4和IPv6的URL
-categories: PHP
 description: 获取IPv4和IPv6的URL
 keywords: IPv4, IPv6
+create_time: 2017-06-16
+tag: IPv4, IPv6
+category: PHP
 ---
 
 知识记录一下而已.

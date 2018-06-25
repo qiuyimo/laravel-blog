@@ -1,9 +1,10 @@
 ---
-layout: post
 title: 高内聚, 低耦合
-categories: 计算机原理
 description: 高内聚, 低耦合
 keywords: 高内聚, 低耦合
+create_time: 2017-02-09
+tag: 高内聚, 低耦合
+category: 计算机原理
 ---
 
 **耦合**可以分为以下几种，它们之间的耦合度由高到低排列如下：

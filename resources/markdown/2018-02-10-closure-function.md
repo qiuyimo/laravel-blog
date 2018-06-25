@@ -1,9 +1,10 @@
 ---
-layout: post
 title: php中的匿名函数和闭包
-categories: PHP
 description: php中的匿名函数和闭包
 keywords: PHP, Anonymous, Closure
+create_time: 2018-02-10
+tag: PHP, Anonymous, Closure
+category: PHP
 ---
 
 `php` 中存在很多实用的技巧, 不会也不影响什么, 但是正确的使用这些技巧, 能够让你的开发更容易一些.

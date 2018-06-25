@@ -1,9 +1,10 @@
 ---
-layout: post
 title: PHP7的新特性
-categories: PHP
 description: PHP7的新特性
 keywords: PHP, PHP7
+create_time: 2018-01-26
+tag: PHP, PHP7
+category: PHP
 ---
 
 不知道是谁说的这句话, 对于 `程序猿` 来说. 折腾就等于踩坑.

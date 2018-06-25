@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Apache的配置文件总结, 是 linux/mac 下的配置
 category: 总结
 description: apache的配置文件总结, 是 linux/mac 下的配置

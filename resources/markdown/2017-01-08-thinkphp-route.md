@@ -1,9 +1,10 @@
 ---
-layout: post
 title: ThinkPHP的路由
-categories: PHP
 description: ThinkPHP的路由
 keywords: PHP, ThinkPHP, 路由
+create_time: 2017-01-08
+tag: PHP, ThinkPHP, 路由
+category: PHP
 ---
 
 之前分析了ThinkPHP在执行指定的方法之前的步骤. 

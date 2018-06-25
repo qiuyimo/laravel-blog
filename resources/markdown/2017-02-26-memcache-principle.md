@@ -1,9 +1,10 @@
 ---
-layout: post
 title: memcache的深入研究, 内部的机制, 原理, 内存分配等
-categories: Linux
 description: memcache的深入研究, 内部的机制, 原理, 内存分配等
 keywords: memcache
+create_time: 2017-02-26
+tag: memcache
+category: Linux
 ---
 
 在工作中, 经常的使用memcache, 但是, 对于一直没有对memcache深入探索, 在面试的时候, 问道了memcache, 还有`猴哥`在QQ上跟我聊这方面的问题, 所以, 决定较为深入的研究一下memcache. 特此做了记录, 方便你我他, 也为了以后跟别人聊起这方便的东西, 有吹的资本. 

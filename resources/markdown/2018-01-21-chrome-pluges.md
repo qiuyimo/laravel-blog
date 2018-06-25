@@ -1,9 +1,10 @@
 ---
-layout: post
 title: Chrome中的插件
-categories: Tools
 description: Chrome中的插件
 keywords: Tool, Chrome, plugin
+create_time: 2018-01-21
+tag: Tool, Chrome, plugin
+category: Tools
 ---
 
 网站开发人员. 不管是前端还是后端, `chrome` 浏览器肯定是不可缺少的. so, `plugin`

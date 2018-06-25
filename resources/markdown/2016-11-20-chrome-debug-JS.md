@@ -1,9 +1,10 @@
 ---
-layout: post
 title: 谷歌浏览器调试JS
-categories: Tools
 description: 谷歌浏览器调试JS
 keywords: 调试js
+create_time: 2016-11-20
+tag: 调试js
+category: Tools
 ---
 
 用控制台记录JS的结果, 什么类型都可以, 例如:

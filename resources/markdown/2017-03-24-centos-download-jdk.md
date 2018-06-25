@@ -1,9 +1,10 @@
 ---
-layout: post
 title: CentOS下载jdk
-categories: Linux
 description: CentOS下载jdk
 keywords: CentOS, jdk, java
+create_time: 2017-03-24
+tag: CentOS, jdk, java
+category: Linux
 ---
 
 在CentOS下, 要下载jdk, 但是复制官网的下载地址, 用wget下载下来的是一个网页. 在网上找到了一个解决把饭. 

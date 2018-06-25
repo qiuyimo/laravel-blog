@@ -1,9 +1,10 @@
 ---
-layout: post
 title: linux中特殊符号的意义
-categories: Linux
 description: linux中特殊符号的意义
 keywords: linux
+create_time: 2017-07-17
+tag: linux
+category: Linux
 ---
 
 备忘

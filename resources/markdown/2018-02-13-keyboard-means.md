@@ -1,10 +1,10 @@
 ---
-
-layout: post
 title: 键盘科普
-categories: 计算机
 description: 键盘上每个按键的意义
 keywords: 计算机, Linux
+create_time: 2018-02-13
+tag: 计算机, Linux
+category: 计算机
 ---
 
 作为一个程序员, 双手肯定是离不开键盘的, 但是, 你是否对键盘上每一个按键的含义都了解呢?

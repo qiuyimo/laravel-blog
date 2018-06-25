@@ -1,9 +1,10 @@
 ---
-layout: post
 title: 字符的编码
-categories: 计算机原理
 description: 编码
 keywords: 编码
+create_time: 2016-11-20
+tag: 编码
+category: 计算机原理
 ---
 
 计算机中的字符编码非常多, 不通的编码转换, 或者是编码不同意, 是非常头疼的一件事, 了解基本的原理, 还是有必要的. 

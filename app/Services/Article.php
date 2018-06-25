@@ -21,8 +21,7 @@ class ArticleService
      */
     public function getArticleList()
     {
-        $res = Article::query()->orderByDesc('updated_at')->paginate(2);
-        // $res = $tests = DB::table('article')->paginate(5);
+        $res = Article::query()->orderByDesc('updated_at')->paginate(10);
         return $res;
     }
 }

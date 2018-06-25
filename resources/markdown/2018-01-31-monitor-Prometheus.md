@@ -1,9 +1,10 @@
 ---
-layout: post
 title: 监控之Prometheus
-categories: 计算机
 description: 监控之Prometheus
 keywords: Prometheus, 监控, 系统
+create_time: 2018-01-31
+tag: Prometheus, 监控, 系统
+category: 计算机
 ---
 
 对于服务器的监控, 可以说是必不可少的. 很早之前, 公司老大就告诉我说公司里别的团队用了一个很不错的监控系统. 一直忙于开发, 也就没研究. 这几天就研究了一下.

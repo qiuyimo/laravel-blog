@@ -1,9 +1,10 @@
 ---
-layout: post
 title: phpstorm的在mac上的快捷键
-categories: Tools
 description: phpstorm的mac快捷键
 keywords: phpstorm, hot key, 快捷键
+create_time: 2017-02-12
+tag: phpstorm, hot key, 快捷键
+category: Tools
 ---
 
 快捷键是效率开发的基础. 

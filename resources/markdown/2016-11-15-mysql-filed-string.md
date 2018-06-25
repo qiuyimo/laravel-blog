@@ -1,9 +1,10 @@
 ---
-layout: post
 title: MySQL中, 字段 = 字符串 + 字段, 处理方法
-categories: SQL
 description: MySQL中, 字段 = 字符串 + 字段, 处理方法
 keywords: MySQL
+create_time: 2016-11-15
+tag: MySQL
+category: SQL
 ---
 
 mysql 查询结果拼接字符串.

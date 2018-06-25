@@ -1,9 +1,10 @@
 ---
-layout: post
 title: ThinkPHP中对Behavior的理解
-categories: PHP
 description: ThinkPHP中对Behavior的理解
 keywords: PHP, ThinkPHP
+create_time: 2016-12-26
+tag: PHP, ThinkPHP
+category: PHP
 ---
 
 ThinkPHP中对Behavior的理解

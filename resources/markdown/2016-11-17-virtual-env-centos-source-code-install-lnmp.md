@@ -1,9 +1,10 @@
 ---
-layout: post
 title: 虚拟机下练习CentOS源码安装LNMP
-categories: Linux
 description: 虚拟机下练习CentOS源码安装LNMP
 keywords: Linux, LNMP
+create_time: 2016-11-17
+tag: Linux, LNMP
+category: Linux
 ---
 
 之前看过一个评论, 说: 程序员, 谁不是安装几十上百次开发环境. 

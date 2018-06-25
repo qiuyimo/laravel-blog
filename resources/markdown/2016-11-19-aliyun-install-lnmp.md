@@ -1,9 +1,10 @@
 ---
-layout: post
 title: 阿里云服务器搭建lnmp环境
-categories: Linux
 description: 阿里云服务器搭建lnmp环境
 keywords: aliyun, LNMP, Linux, CentOS
+create_time: 2016-11-19
+tag: aliyun, LNMP, Linux, CentOS
+category: Linux
 ---
 
 之前一直都是在虚拟机里安装lnmp的环境, 这回我在阿里云中实际安装一次, 其实也没有多大的区别. 都是远程终端操控的, 搞起.

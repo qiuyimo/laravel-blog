@@ -1,9 +1,10 @@
 ---
-layout: post
 title: 打造自己的专属神器phpstorm(三) - 插件
-categories: Tools
 description: 打造自己的专属神器, phpstorm IDE
 keywords: Tool, PHPStorm, IDE
+create_time: 2018-02-16
+tag: Tool, PHPStorm, IDE
+category: Tools
 ---
 
 ## 合理的使用插件, 能够显著的提高工作效率, 这里搜集一些我知道的实用插件.

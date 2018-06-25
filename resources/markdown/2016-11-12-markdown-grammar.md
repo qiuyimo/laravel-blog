@@ -1,9 +1,10 @@
 ---
-layout: post
-title: markdown的语法 
-categories: Tools
-description: markdown的语法, 以及在mweb中的使用方法. 
+title: markdown的语法
+description: markdown的语法, 以及在mweb中的使用方法.
 keywords: markdown, mweb
+create_time: 2016-11-12
+tag: markdown, mweb
+category: Tools
 ---
 
 markdown 是写作的利器. 语法也很简单. 如果你还在用 word 记录你的笔记. 那你就out了.

@@ -1,9 +1,10 @@
 ---
-layout: post
 title: mac下cli中php命令加载慢的问题
-categories: PHP
 description: mac下cli中php命令加载慢的问题
 keywords: PHP, Mac, Cli
+create_time: 2018-01-28
+tag: PHP, Mac, Cli
+category: PHP
 ---
 
 mac自带的php我必须要吐槽一下. 版本低就不说什么了, 是5.6的版本. 删不掉, 权限不够. 不能升级是搞什么.

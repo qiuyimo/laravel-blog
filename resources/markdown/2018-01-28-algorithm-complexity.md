@@ -1,9 +1,10 @@
 ---
-layout: post
 title: 算法复杂度
-categories: PHP
 description: 算法复杂度
 keywords: PHP
+create_time: 2018-01-28
+tag: PHP
+category: PHP
 ---
 
 在写代码的过程中, 平时也会留意代码复杂度. 但是因为写的代码一般都是应用级别的, 所以不会遇到复杂度很高的情况.

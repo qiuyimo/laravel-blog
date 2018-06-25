@@ -1,5 +1,4 @@
 ---
-layout: post
 title: smarty中的foreach遍历和时间转换
 category: HTML
 description: smarty中的foreach遍历和时间转换

@@ -1,9 +1,10 @@
 ---
-layout: post
 title: 安装PHPMyAdmin
-categories: Tools
 description: 安装PHPMyAdmin
 keywords: PHPMyAdmin, php
+create_time: 2016-11-14
+tag: PHPMyAdmin, php
+category: Tools
 ---
 
 `PHPMyAdmin` 是 `MySQL` 的利器. 不管在哪里, 都可以使用. 所以. 我平时使用最多的. 就这个管理数据软件.

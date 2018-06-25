@@ -1,9 +1,10 @@
 ---
-layout: post
 title: CentOS7下安装lnmp (CentOS7.3.1661, Nginx1.8.1, MySQL5.6.16, PHP5.6.30)
-categories: Linux
 description: CentOS7下安装lnmp (CentOS7.3.1661, Nginx1.8.1, MySQL5.6.16, PHP5.6.30)
 keywords: LNMP, CentOS, Linux
+create_time: 2017-03-10
+tag: LNMP, CentOS, Linux
+category: Linux
 ---
 
 CentOS7下安装lnmp (CentOS7.3.1661, Nginx1.8.1, MySQL5.6.16, PHP5.6.30)

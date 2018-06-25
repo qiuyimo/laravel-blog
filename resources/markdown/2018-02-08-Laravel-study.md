@@ -1,9 +1,10 @@
 ---
-layout: post
 title: Laravel学习记录
-categories: PHP
 description: Laravel学习记录
 keywords: PHP
+create_time: 2018-02-08
+tag: PHP
+category: PHP
 ---
 
 随着学习的深入, 越来越觉得我用的 TP 框架有些过时了. 用的是 3.2.3 的版本, 不过时才怪.

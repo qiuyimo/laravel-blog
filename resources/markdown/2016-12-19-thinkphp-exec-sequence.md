@@ -1,9 +1,10 @@
 ---
-layout: post
 title: ThinkPHP学习笔记, 执行流程
-categories: PHP
 description: ThinkPHP学习笔记, 执行流程
 keywords: PHP, ThinkPHP
+create_time: 2016-12-19
+tag: PHP, ThinkPHP
+category: PHP
 ---
 
 ThinkPHP学习笔记, 执行流程, 不断更新ing
