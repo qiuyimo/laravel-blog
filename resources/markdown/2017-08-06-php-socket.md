@@ -15,7 +15,7 @@ category: PHP
 
 左侧是服务端, 右侧是客户端. 
 
-![](/images/posts/15020274998242.jpg)
+![](/images/15020274998242.jpg)
 
 
 

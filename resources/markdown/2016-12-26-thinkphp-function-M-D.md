@@ -87,14 +87,14 @@ function D($name='',$layer='') {
 	}
 ```
 
-![-w505](/images/posts/14827371831794.jpg)
+![](/images/14827371831794.jpg)
 
 
 输出结果:
-![-w532](/images/posts/14827372326314.jpg)
+![](/images/14827372326314.jpg)
 
 配置文件: 其他的配置用的都是默认的.
-![-w823](/images/posts/14827372873967.jpg)
+![](/images/14827372873967.jpg)
 
 
 

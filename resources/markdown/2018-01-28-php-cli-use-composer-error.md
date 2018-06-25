@@ -14,7 +14,7 @@ category: PHP
 
 我要安装的`composer`包, 要求是`php`的版本大于`7.1.3`.
 
-![composer_error_php_version](/images/posts/composer_error_php_version.png)
+![](/images/composer_error_php_version.png)
 
 查看我的版本.
 

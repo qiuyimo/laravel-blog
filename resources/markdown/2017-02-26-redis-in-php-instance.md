@@ -33,7 +33,7 @@ extension=redis.so
 ```
 
 安装完成后重启php-fpm 或 apache。查看phpinfo信息，就能看到redis扩展。
-![-w486](/images/posts/14881148172490.jpg)
+![](/images/14881148172490.jpg)
 
 
 ---

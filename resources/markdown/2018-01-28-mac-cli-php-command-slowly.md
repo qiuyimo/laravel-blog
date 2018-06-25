@@ -17,7 +17,7 @@ mac自带的php我必须要吐槽一下. 版本低就不说什么了, 是5.6的�
 
 在命令行中使用指定版本. 需要这么处理:
 
-![composer_commit__mamp](/images/posts/composer_commit__mamp.png)
+![](/images/composer_commit__mamp.png)
 
 这样就可以在cli中使用这里的php版本. 切换php版本也很方便.
 
@@ -50,10 +50,10 @@ Zend Engine v3.1.0, Copyright (c) 1998-2017 Zend Technologies
 
 1. 在系统的`偏好设置`中, 找到`共享`:
 
-    ![composer_commit__mamp_1](/images/posts/composer_commit__mamp_1.png)
+    ![](/images/composer_commit__mamp_1.png)
 
 2. 编辑`hosts`.
-    ![composer_commit__mamp_2](/images/posts/composer_commit__mamp_2.png)
+    ![](/images/composer_commit__mamp_2.png)
 
 ok, 这样就可以了.
 

@@ -135,7 +135,7 @@ Prometheus生态系统由多个组件组成，它们中的一些是可选的。�
 
 下面这张图说明了Prometheus的整体架构，以及生态中的一些组件作用:
 
-![prometheus](/images/posts/prometheus.png)
+![](/images/prometheus.png)
 
 Prometheus的基本原理是通过HTTP协议周期性抓取被监控组件的状态，任意组件只要提供对应的HTTP接口就可以接入监控。不需要任何SDK或者其他的集成过程。这样做非常适合做虚拟化环境监控系统，比如VM、Docker、Kubernetes等。输出被监控组件信息的HTTP接口被叫做exporter 。目前互联网公司常用的组件大部分都有exporter可以直接使用，比如Varnish、Haproxy、Nginx、MySQL、Linux系统信息(包括磁盘、内存、CPU、网络等等)。
 
@@ -299,7 +299,7 @@ success
 
 这个时候, 打开浏览器, 访问目标地址, 就可以看到收集的mysql信息了.
 
-![image_promethuse_msyql_76](/images/posts/image_promethuse_msyql_76.png)
+![](/images/image_promethuse_msyql_76.png)
 
 #### 修改 `prometheus` 的配置文件.
 
@@ -332,17 +332,17 @@ drwxr-xr-x 12 root root 4.0K 2月   5 12:24 data
 ➜  mysqld_exporter-0.10.0.linux-amd64 systemctl restart prometheus.service
 ```
 
-![image_promethuse_msyql_pr](/images/posts/image_promethuse_msyql_pr.png)
+![](/images/image_promethuse_msyql_pr.png)
 
 ### 添加其他的类似. 这里就不列举了.
 
 
 ### 最后的效果图
 
-![image_promethuse_msyql_pr_1](/images/posts/image_promethuse_msyql_pr_1.png)
+![](/images/image_promethuse_msyql_pr_1.png)
 
 
-![image_promethuse_msyql_pr_2](/images/posts/image_promethuse_msyql_pr_2.png)
+![](/images/image_promethuse_msyql_pr_2.png)
 
 
 ## 使用心得

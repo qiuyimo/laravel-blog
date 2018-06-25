@@ -11,7 +11,7 @@ category: Tools
 更是用处很大. 我这里使用的我都给列出来了.
 
 
-![chrome_plugins](/images/posts/chrome_plugins.png)
+![](/images/chrome_plugins.png)
 
 | 插件名称                                              | 插件简介                                                                                                                   |
 |:-----------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------|
@@ -36,4 +36,4 @@ category: Tools
 | 身份验证器 4.18                                        | 适用于Google身份验证器及战网安全令。                                                                                           |
 
 
-![chrome_set_6](/images/posts/chrome_set_6.png)
+![](/images/chrome_set_6.png)

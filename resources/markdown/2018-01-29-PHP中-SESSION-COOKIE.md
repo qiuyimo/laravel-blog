@@ -132,7 +132,7 @@ here</a>.
 
 先来看一下我的session配置信息. 都是默认的. 我没有配置过.
 
-![composer_error_php_version_2asdf_1session](/images/posts/composer_error_php_version_2asdf_1session.png)
+![](/images/composer_error_php_version_2asdf_1session.png)
 
 先来一个简单的例子
 
@@ -167,11 +167,11 @@ if (empty($_SESSION['count'])) {
 </p>
 ```
 
-![composer_error_php_version_2asdf_1session_1](/images/posts/composer_error_php_version_2asdf_1session_1.png)
+![](/images/composer_error_php_version_2asdf_1session_1.png)
 
 每次刷新页面, 都`count`都会加1. 证明保存了会话. 查看一下`cookie`的信息.
 
-![composer_error_php_version_2asdf_1session_4](/images/posts/composer_error_php_version_2asdf_1session_4.png)
+![](/images/composer_error_php_version_2asdf_1session_4.png)
 
 可以看到. 这个就是我设置的`session_name`了. 在php.info中可以看到, 就是这个名称.
 
@@ -200,7 +200,7 @@ zsh: sure you want to delete all the files in /Applications/MAMP/tmp/php/. [yn]?
 
 再次打开浏览器, 访问这个页面.
 
-![composer_error_php_version_2asdf_1session_5](/images/posts/composer_error_php_version_2asdf_1session_5.png)
+![](/images/composer_error_php_version_2asdf_1session_5.png)
 
 变回了1. 说明删除文件后, 就不能维持会话了. (废话)
 

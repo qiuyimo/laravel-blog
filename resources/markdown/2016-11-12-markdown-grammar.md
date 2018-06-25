@@ -123,7 +123,7 @@ Markdown 语法：
 Markdown 语法：
 
 ```
-![GitHub set up](http://zh.mweb.im/asset/img/set-up-git.gif)
+![](http://zh.mweb.im/asset/img/set-up-git.gif)
 格式: ![Alt Text](url)
 ```
 
@@ -131,7 +131,7 @@ Markdown 语法：
 如果是 MWeb 的文档库中的文档，还可以用拖放图片、`CMD + V` 粘贴、`CMD + Option + I` 导入这三种方式来增加图片。
 效果如下：
 
-![GitHub set up](http://zh.mweb.im/asset/img/set-up-git.gif)
+![](http://zh.mweb.im/asset/img/set-up-git.gif)
 
 MWeb 引入的特别的语法来设置图片宽度，方法是在图片描述后加 `-w + 图片宽度` 即可，比如说要设置上面的图片的宽度为 140，语法如下：
 

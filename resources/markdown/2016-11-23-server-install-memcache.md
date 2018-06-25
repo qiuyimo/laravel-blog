@@ -94,22 +94,22 @@ Zend Extension Api No:   220121212
 [root@CentOS memcache-3.0.8]# ./configure --with-php-config=/usr/local/php/bin/php-config --enable-memcache
 ```
 
-![-w676](/images/posts/14798824446515.jpg)
+![](/images/14798824446515.jpg)
 
 
 ##重启nginx, phpinfo没有memcache, 但是查看php模块有. 
-![](/images/posts/14798825390938.jpg)
+![](/images/14798825390938.jpg)
 
 ## 所以重启php-fpm试试, 结果就有了.
 
-![-w737](/images/posts/14798826117911.jpg)
+![](/images/14798826117911.jpg)
 
 
 
 
-![-w414](/images/posts/14798832118487.jpg)
+![](/images/14798832118487.jpg)
 
-![-w475](/images/posts/14798832351511.jpg)
+![](/images/14798832351511.jpg)
 
 
 

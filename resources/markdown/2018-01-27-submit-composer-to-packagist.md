@@ -51,7 +51,7 @@ category: PHP
 
 ### 对应的目录
 
-![composer_commit_232](/images/posts/composer_commit_232.png)
+![](/images/composer_commit_232.png)
 
 ### 代码文件
 
@@ -82,19 +82,19 @@ class Demo
 
 ### 发布到packagist
 
-![composer_commit_32323](/images/posts/composer_commit_32323.png)
+![](/images/composer_commit_32323.png)
 
 ## 遇到的坑
 
 1. 自动同步问题.
 2. 版本号问题.
 
-![composer_commit_1](/images/posts/composer_commit_1.png)
+![](/images/composer_commit_1.png)
 
 
 ## 安装一下试试.
 
-![composer_commit](/images/posts/composer_commit.png)
+![](/images/composer_commit.png)
 
 没问题. ok了
 

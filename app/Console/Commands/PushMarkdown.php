@@ -96,8 +96,8 @@ class PushMarkdown extends Command
             // 获取文章的数据.
             $article = [];
             $article['title'] = $markdown['title'];
-            $article['url'] = ($markdown['url'] ?? app('translug')->translug($article['title'])) . '/' . strtotime($markdown['create_time']);
-            $article['description'] = config('article.description.prefix') . ($markdown['description'] ?? '') . config('article.description.suffix');
+            $article['url'] = $markdown['url'] ?? app('translug')->translug($article['title']);
+            $article['description'] = $markdown['description'] ?? '';
             $article['keywords'] = $markdown['keywords'] ?? config('article.keywords.default');
             $article['weight'] = (integer)($markdown['weight'] ?? 0);
             $article['markdown'] = $markdown['markdown'];

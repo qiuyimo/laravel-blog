@@ -122,4 +122,4 @@ The installed coding standards are MySource, PEAR, PSR1, PSR2, Squiz and Zend
 
 一张图说明一切.
 
-![phpcs_set_2](/images/posts/phpcs_set_2.png)
+![](/images/phpcs_set_2.png)

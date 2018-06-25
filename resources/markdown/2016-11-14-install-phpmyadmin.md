@@ -14,11 +14,11 @@ category: Tools
 [PHPMyAdmin官网](https://www.phpmyadmin.net/)
 
 * 下载的应该是一个压缩包, 解压, 把加压后的文件放入PHP环境中的站点目录中. 我的站点目录是www. 
-![](/images/posts/14791072031210.jpg)
+![](/images/14791072031210.jpg)
 
 
 * 进入站点中的phpmyadmin目录, 会看到一个示范用的配置文件. `config.sample.inc.php`, 复制一份, 把复制后的重命名, 改为`config.inc.php` .
-![](/images/posts/14791072964208.jpg)
+![](/images/14791072964208.jpg)
 
 * 编辑此配置文件. 
 我只修改了2个地方, 然后就可以使用了. 看注释就知道我是改的哪个地方了. 
@@ -52,13 +52,13 @@ $cfg['Servers'][$i]['AllowNoPassword'] = false;
 
 
 * 最后, 在localhost中就可以看到phpmyadmin了, 进入, 输入数据库的用户和密码, 就可以使用了. 
-![-w500](/images/posts/14791075850436.jpg)
+![](/images/14791075850436.jpg)
 
 
-![-w500](/images/posts/14791076774626.jpg)
+![](/images/14791076774626.jpg)
 
 
-![](/images/posts/14791076934215.jpg)
+![](/images/14791076934215.jpg)
 
 
 * 当然了, 方便的方法是给phpmyadmin搭建一个虚拟主机, 直接访问URL就可以进入phpmyadmin了. 

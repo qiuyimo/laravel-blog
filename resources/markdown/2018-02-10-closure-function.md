@@ -85,7 +85,7 @@ $example();
 
 输出:
 
-![imageaaa_callback.jpg_1](/images/posts/imageaaa_callback.jpg_1.png)
+![](/images/imageaaa_callback.jpg_1.png)
 
 > 解释: 匿名函数和普通的函数一样, 直接使用外部的变量是不允许的. 所以会警告, 下面这个是正确的使用方法.
 
@@ -122,7 +122,7 @@ $example();
 
 输出:
 
-![imageaaa_callback3](/images/posts/imageaaa_callback3.png)
+![](/images/imageaaa_callback3.png)
 
 > 解释: Inherited variable's value is from when the function is defined, not when called.
 > 使用外部变量的值, 要使用 use , 而且, 继承这个变量的值是在匿名函数定义时确定的, 而不是在调用的时候确定的.
@@ -143,7 +143,7 @@ $example();
 
 结果:
 
-![imageaaa_callback_a_1](/images/posts/imageaaa_callback_a_1.png)
+![](/images/imageaaa_callback_a_1.png)
 
 > 可以看到. 引用外部的变量参数中, 前面有 &
 
@@ -164,7 +164,7 @@ $message = 'world';
 $example();
 ```
 
-![imageaaa_callback_a_2](/images/posts/imageaaa_callback_a_2.png)
+![](/images/imageaaa_callback_a_2.png)
 
 > 可以看到, 和上一个例子的区别在于, 使用了 & 之后, 是可以在匿名函数定义只有改变变量引用的.
 

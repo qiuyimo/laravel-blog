@@ -835,14 +835,14 @@ ok, 这次没有报错.
 
 
 找到user和group的配置位置
-![-w618](/images/posts/14795348460790.jpg)
+![](/images/14795348460790.jpg)
 改为: 
-![-w614](/images/posts/14795348991727.jpg)
+![](/images/14795348991727.jpg)
 
 再找到pid的配置位置
-![-w608](/images/posts/14795350004961.jpg)
+![](/images/14795350004961.jpg)
 去掉前面的分号, 改为
-![-w606](/images/posts/14795350421566.jpg)
+![](/images/14795350421566.jpg)
 配置完毕, 保存退出. 
 
 设置 php-fpm开机启动
@@ -974,7 +974,7 @@ MySQL数据库目录是：`/usr/local/mysql/var`
 
 终于搞定了
 
-![-w1187](/images/posts/14893359417056.jpg)
+![](/images/14893359417056.jpg)
 
 
 

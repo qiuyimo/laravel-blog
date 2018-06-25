@@ -14,7 +14,7 @@ class UpdateArticleTableAddStatus extends Migration
     public function up()
     {
         Schema::table('article', function (Blueprint $table) {
-            $table->integer('status')->default(0)->comment('文章的状态, 0:不显示, 1:显示');
+            $table->integer('status')->default(0)->comment('文章的状态, 0:不显示, 1:显示')->change();
         });
     }
 

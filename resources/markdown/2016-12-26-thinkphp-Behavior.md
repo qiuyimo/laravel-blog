@@ -43,13 +43,13 @@ if(is_file(CONF_PATH.'tags.php'))
 ```
 
 加载了什么呢? 先来看一下系统自带的配置文件:
-![-w825](/images/posts/14827486260286.jpg)
+![](/images/14827486260286.jpg)
 
 
 这里用到了`Hook::import()`, 他的作用就是把配置文件都合并到一个私有的属性里. 是个数组. 
 文件是:`/ThinkPHP/Library/Think/Hook.class.php`, 
 
-![-w491](/images/posts/14827481478003.jpg)
+![](/images/14827481478003.jpg)
 I
 
 ```php

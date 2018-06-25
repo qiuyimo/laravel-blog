@@ -16,7 +16,7 @@ category: 计算机
 
 ## 键盘
 
-![keyborad_1](/images/posts/keyborad_1.png)
+![](/images/keyborad_1.png)
 
 ### 名称是缩写的按键
 
@@ -75,4 +75,4 @@ category: 计算机
 
 > 图①
 
-![keyborad_3](/images/posts/keyborad_3.png)
+![](/images/keyborad_3.png)
