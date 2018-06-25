@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class UpdateArticleTable extends Migration
+class UpdateArticleTableAddFileName extends Migration
 {
     /**
      * Run the migrations.
@@ -14,7 +14,7 @@ class UpdateArticleTable extends Migration
     public function up()
     {
         Schema::table('article', function (Blueprint $table) {
-            $table->integer('status')->default(0)->comment('文章的状态, 0:不显示, 1:显示');
+            $table->string('file_name', 255)->comment('markdown 文件的名称');
         });
     }
 
