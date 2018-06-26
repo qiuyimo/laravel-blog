@@ -4,7 +4,10 @@ namespace App\Services;
 
 use App\Models\Article;
 use App\Models\ArticleCategory;
+use App\Models\Category;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Cache;
+use Psr\SimpleCache\InvalidArgumentException;
 
 class ArticleService
 {
@@ -34,7 +37,7 @@ class ArticleService
 
         $res = Article::with('hasManyTag')->with(['hasManyCate' => function ($query) {
             $query->with('belongsToCategory');
-        }])->orderByDesc('updated_at')->paginate(10);
+        }])->orderByDesc('updated_at')->paginate(30);
 
         return $res;
     }
@@ -50,5 +53,41 @@ class ArticleService
         $next = Article::query()->where('id', '>', $id)->orderBy('id', 'asc')->first()->toArray();
 
         return ['prev' => $prev, 'next' => $next];
+    }
+
+    /**
+     * 获取阅读量最多的文章列表.
+     * @param int $limit
+     * @return \Illuminate\Database\Eloquent\Builder[]|\Illuminate\Database\Eloquent\Collection
+     */
+    public function getArticleByViews(int $limit)
+    {
+        return Article::with('hasManyTag')->with(['hasManyCate' => function ($query) {
+            $query->with('belongsToCategory');
+        }])->orderByDesc('views')->limit($limit)->get();
+    }
+
+    /**
+     * 根据时间, 获取文章列表, 存在缓存.
+     * @return mixed
+     */
+    public function getAllArticleByTime()
+    {
+        $cacheName = __FUNCTION__;
+        $cacheTtl = 3600;
+
+        if ($cache = Cache::get($cacheName)) {
+            return $cache;
+        } else {
+            $res = Article::with('hasManyTag')->with(['hasManyCate' => function ($query) {
+                $query->with('belongsToCategory');
+            }])->orderByDesc('updated_at')->get()->toArray();
+
+            try {
+                Cache::set($cacheName, $res, $cacheTtl);
+            } catch (InvalidArgumentException $e) {
+                abort(404);
+            }
+        }
     }
 }

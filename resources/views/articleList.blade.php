@@ -8,14 +8,14 @@
             <h1>Article List</h1>
             @forelse($articles as $article)
                 <div class="row">
-                    <div class="col-md-7">
+                    <div class="col-md-8">
                         <a href="/article/{{ $article->url }}/{{ strtotime($article->created_at) }}">
                             {{ $article->title }}
                         </a>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-2">
                         <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
-                        {{ $article->created_at }}
+                        {{ date("Y-m-d", strtotime($article->created_at)) }}
                     </div>
                     <div class="col-md-1">
                         views: {{ $article->views }}

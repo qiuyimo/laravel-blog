@@ -56,4 +56,11 @@ class ArticleController extends Controller
 
         return view('articleList', ['articles' => $articles]);
     }
+
+    public function time()
+    {
+        $article = $this->articleService->getAllArticleByTime();
+
+        return view('articleTime', ['articles' => $article]);
+    }
 }
