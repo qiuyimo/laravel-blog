@@ -7,9 +7,22 @@
         <div class="container">
             <h1>Article List</h1>
             @forelse($articles as $article)
-                <div>
-                    <a href="/article/{{ $article->url }}">{{ $article->title }}</a>
-                    <div>{{ $article->created_at }}</div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <a href="/article/{{ $article->url }}/{{ strtotime($article->created_at) }}">
+                            {{ $article->title }}
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+                        {{ $article->created_at }}
+                    </div>
+                    <div class="col-md-1">
+                        views: {{ $article->views }}
+                    </div>
+                    <div class="col-md-1">
+                        like: {{ $article->like }}
+                    </div>
                 </div>
             @empty
                 没有记录

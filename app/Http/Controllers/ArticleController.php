@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Services\ArticleService;
+use Illuminate\Support\Facades\Event;
+use App\Events\ArticlePageViews;
+use App\Models\Article;
 
 class ArticleController extends Controller
 {
@@ -27,12 +30,14 @@ class ArticleController extends Controller
      */
     public function article()
     {
-        $urlName = request()->route('urlName');
-        $createTime = request()->route('createTime');
+        $urlName = (string)request()->route('urlName');
+        $createTime = (integer)request()->route('createTime');
 
-        $markdown = $this->articleService->getArticleByUrl($urlName . '/' . $createTime);
+        $article = $this->articleService->getArticleByUrl($urlName, $createTime);
 
-        return view('article', $markdown);
+        // 浏览事件
+        Event::fire(new ArticlePageViews($article));
+        return view('article', $article);
     }
 
     /**

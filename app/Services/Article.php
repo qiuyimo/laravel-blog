@@ -9,12 +9,13 @@ use Illuminate\Support\Facades\DB;
 class ArticleService
 {
     /**
-     * @param $url
-     * @return array
+     * @param string $url
+     * @param int $createTime
+     * @return \Illuminate\Database\Eloquent\Builder|\Illuminate\Database\Eloquent\Model
      */
-    public function getArticleByUrl($url)
+    public function getArticleByUrl(string $url, int $createTime)
     {
-        return Article::query()->where('url', $url)->first()->toArray();
+        return Article::query()->where('url', $url)->where('created_at', date("Y-m-d H:i:s", $createTime))->firstOrFail();
     }
 
     /**
