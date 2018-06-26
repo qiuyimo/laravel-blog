@@ -37,7 +37,12 @@ class ArticleController extends Controller
 
         // 浏览事件
         Event::fire(new ArticlePageViews($article));
-        return view('article', $article);
+
+        $info = $article->toArray();
+
+        $info['prevAndNextArticle'] = $this->articleService->getPrevAndNext($article->id);
+
+        return view('article', $info);
     }
 
     /**

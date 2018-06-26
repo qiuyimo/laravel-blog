@@ -9,21 +9,16 @@ use Illuminate\Broadcasting\PresenceChannel;
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Contracts\Broadcasting\ShouldBroadcast;
-use App\Models\Article;
 
 class ArticlePageViews
 {
     use Dispatchable, InteractsWithSockets, SerializesModels;
 
-    /**
-     * @var Article
-     */
     public $article;
 
     /**
-     * Create a new event instance.
-     *
-     * @param Article $article
+     * ArticlePageViews constructor.
+     * @param $article
      */
     public function __construct($article)
     {

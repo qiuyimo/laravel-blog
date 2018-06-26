@@ -7,6 +7,11 @@
         <script type="text/javascript" src="{{URL::asset('/js/prism.js')}}" ></script>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <style type="text/css">
+            .article-next, .article-prev {
+                margin: 10px;
+                padding: 10px;
+                border: 1px solid #eee;
+            }
         </style>
     </head>
 
@@ -16,6 +21,26 @@
             <h1>{{ $title }}</h1>
 
             {!! $html !!}
+
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="/article/{{ $prevAndNextArticle['prev']['url'] }}/{{ strtotime($prevAndNextArticle['prev']['created_at']) }}">
+                        <div class="article-prev">
+                            <h2>{{ $prevAndNextArticle['prev']['title'] }}</h2>
+                            <div>{{ $prevAndNextArticle['prev']['summary'] }}</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-6">
+                    <a href="/article/{{ $prevAndNextArticle['prev']['url'] }}/{{ strtotime($prevAndNextArticle['next']['created_at']) }}">
+                        <div class="article-next">
+                            <h2>{{ $prevAndNextArticle['next']['title'] }}</h2>
+                            <div>{{ $prevAndNextArticle['next']['summary'] }}</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
