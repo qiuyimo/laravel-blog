@@ -81,8 +81,17 @@ class PushMarkdown extends Command
                 continue;
             }
 
+            $md = trim(str_replace($match[1], '', $file->getContents()));
+
+            $summary = trim(substr($md, 0, strpos($md, "\n\n")));
+            if (in_array(mb_substr($summary, 0, 1), ['#', '*', '!', '`'])) {
+                $summary = '';
+            }
+
             // 转换为数组格式.
-            $markdowns[$file->getRelativePathname()]['markdown'] = trim(str_replace($match[1], '', $file->getContents()));
+            $markdowns[$file->getRelativePathname()]['summary'] = $summary;
+            $markdowns[$file->getRelativePathname()]['markdown'] = $md;
+
             foreach ($header as $val) {
                 $pos = strpos($val, ':');
                 if ($pos !== false) {
@@ -104,6 +113,7 @@ class PushMarkdown extends Command
             $article['html'] = $parsedown->text($article['markdown']);
             $article['created_at'] = $markdown['create_time'];
             $article['status'] = 1;
+            $article['summary'] = $markdown['summary'];
             $article['file_name'] = $fileName;
 
             // 事务.
@@ -140,6 +150,8 @@ class PushMarkdown extends Command
                 }
 
                 DB::commit();
+
+                $this->line('添加完毕, title: ' . $article['title'], 'info');
             } catch (\Exception $e) {
                 DB::rollBack();
 
@@ -148,6 +160,7 @@ class PushMarkdown extends Command
             }
         }
 
-        dump('有效 article: ' . count($markdowns));
+        $this->line('有效 article: ' . count($markdowns), 'info');
+        $this->line('complete', 'info');
     }
 }

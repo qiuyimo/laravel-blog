@@ -9,6 +9,7 @@
             @forelse($articles as $article)
                 <div>
                     <a href="/article/{{ $article->url }}">{{ $article->title }}</a>
+                    <div>{{ $article->created_at }}</div>
                 </div>
             @empty
                 没有记录

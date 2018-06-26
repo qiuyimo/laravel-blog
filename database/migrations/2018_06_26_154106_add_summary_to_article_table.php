@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class UpdateArticleTableAddStatus extends Migration
+class AddSummaryToArticleTable extends Migration
 {
     /**
      * Run the migrations.
@@ -14,7 +14,7 @@ class UpdateArticleTableAddStatus extends Migration
     public function up()
     {
         Schema::table('article', function (Blueprint $table) {
-            $table->integer('status')->default(0)->comment('文章的状态, 0:不显示, 1:显示');
+            $table->text('summary')->comment('文章简介');
         });
     }
 
