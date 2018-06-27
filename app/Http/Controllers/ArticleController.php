@@ -55,8 +55,6 @@ class ArticleController extends Controller
         $info = [];
         foreach ($articles as $article) {
             $info[] = $article->toArray();
-            // dump($info);
-            // die;
         }
 
         return view('articleList', ['articles' => $articles, 'info' => $info]);

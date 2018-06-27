@@ -22,3 +22,5 @@ Route::get('article/{urlName}/{createTime}', 'ArticleController@article')->where
 Route::get('article/{page?}', 'ArticleController@list')->where('page', '[0-9]+')->name('article-list');
 
 Route::get('time', 'ArticleController@time')->name('article-time');
+
+Route::get('es', 'ElasticsearchTestController@index');

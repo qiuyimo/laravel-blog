@@ -294,7 +294,7 @@
                     </span>
                     <span class="timeline-content-info-date">
                         <i class="fa fa-calendar-o" aria-hidden="true"></i>
-                        keywords: {{ $article['keywords'] }}
+                        {{ $article['keywords'] }}
                     </span>
                 </div>
 

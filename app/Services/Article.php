@@ -37,7 +37,7 @@ class ArticleService
 
         $res = Article::with('hasManyTag')->with(['hasManyCate' => function ($query) {
             $query->with('belongsToCategory');
-        }])->orderByDesc('created_at')->paginate(30);
+        }])->orderByDesc('created_at')->paginate(10);
 
         return $res;
     }
