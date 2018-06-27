@@ -24,7 +24,7 @@ class ElasticsearchTestController extends Controller
 
         try {
             $response = $client->index($params);
-            dump($response);
+            return $response;
         } catch (Exception $e) {
             dump($e->getMessage());
             $last = $client->transport->getLastConnection()->getLastRequestInfo();
