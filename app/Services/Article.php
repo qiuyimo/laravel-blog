@@ -49,8 +49,10 @@ class ArticleService
      */
     public function getPrevAndNext($id)
     {
-        $prev = Article::query()->where('id', '<', $id)->orderBy('id', 'desc')->first()->toArray();
-        $next = Article::query()->where('id', '>', $id)->orderBy('id', 'asc')->first()->toArray();
+        $prev = Article::query()->where('id', '<', $id)->orderBy('id', 'desc')->first();
+        $prev = $prev ? $prev->toArray() : '';
+        $next = Article::query()->where('id', '>', $id)->orderBy('id', 'asc')->first();
+        $next = $next ? $next->toArray() : '';
 
         return ['prev' => $prev, 'next' => $next];
     }

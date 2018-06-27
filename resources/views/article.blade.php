@@ -94,21 +94,25 @@
 
                 <div class="row">
                     <div class="col-md-6">
-                        <a href="/article/{{ $prevAndNextArticle['prev']['url'] }}/{{ strtotime($prevAndNextArticle['prev']['created_at']) }}">
-                            <div class="article-prev">
-                                <h2>{{ $prevAndNextArticle['prev']['title'] }}</h2>
-                                <div>{{ $prevAndNextArticle['prev']['summary'] }}</div>
-                            </div>
-                        </a>
+                        @if (!empty($prevAndNextArticle['prev']))
+                            <a href="/article/{{ $prevAndNextArticle['prev']['url'] }}/{{ strtotime($prevAndNextArticle['prev']['created_at']) }}">
+                                <div class="article-prev">
+                                    <h2>{{ $prevAndNextArticle['prev']['title'] }}</h2>
+                                    <div>{{ $prevAndNextArticle['prev']['summary'] }}</div>
+                                </div>
+                            </a>
+                        @endif
                     </div>
 
                     <div class="col-md-6">
-                        <a href="/article/{{ $prevAndNextArticle['prev']['url'] }}/{{ strtotime($prevAndNextArticle['next']['created_at']) }}">
+                        @if (!empty($prevAndNextArticle['next']))
+                        <a href="/article/{{ $prevAndNextArticle['next']['url'] }}/{{ strtotime($prevAndNextArticle['next']['created_at']) }}">
                             <div class="article-next">
                                 <h2>{{ $prevAndNextArticle['next']['title'] }}</h2>
                                 <div>{{ $prevAndNextArticle['next']['summary'] }}</div>
                             </div>
                         </a>
+                        @endif
                     </div>
                 </div>
             </div>
