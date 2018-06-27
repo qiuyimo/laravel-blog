@@ -14,14 +14,34 @@ curl:
 
 
 
-## Coding
+## aliyun 上使用 github 的龟速
+
+看这个速度, 龟速啊. 
+
+```shell
+[root@iZm5eat7o13nmw3p7hg674Z code]# git clone git@github.com:qiuyuhome/laravel-blog.git
+正克隆到 'laravel-blog'...
+remote: Counting objects: 1233, done.
+remote: Compressing objects: 100% (838/838), done.
+^CKilled by signal 2./1233), 5.69 MiB | 8.00 KiB/s
+
+[root@iZm5eat7o13nmw3p7hg674Z code]#
+```
+
+只有可怜的 `8.00 KiB/s`. `!感谢` 中国的伟大长城防火墙. 
+
+## 解决方案
+
+本地推动代码时, 同时推送到 github 和国内的 coding 上, 在 aliyun 上拉取国内的 coding, 速度应该就不会慢了吧. 
+
+### coding
 
 就是一个中国版的 github, 熟悉 github了, 这个更不在话下了, 官方就是中文的. 
 
 1. 建立仓库.
 2. 加入公钥.
 
-## 添加本地仓库的远程地址
+### 添加本地仓库的远程地址
 
 命令: `git remote set-url --add origin <url2>`
 
@@ -34,7 +54,7 @@ origin	git@git.coding.net:qiuyuhome/laravel-blog.git (push)
 ➜  laravel-blog git:(master) ✗
 ```
 
-## 推送
+### 推送
 
 现在就可以 push 代码了, 会同时推送到指定的 2 个仓库中. 
 
@@ -67,3 +87,22 @@ To git.coding.net:qiuyuhome/laravel-blog.git
 ➜  laravel-blog git:(master)
 ```
 
+
+
+### 阿里云拉取代码
+
+再看看这回是速度
+
+```shell
+[root@iZm5eat7o13nmw3p7hg674Z code]# git clone git@git.coding.net:qiuyuhome/laravel-blog.git
+正克隆到 'laravel-blog'...
+Warning: Permanently added the RSA host key for IP address '123.59.85.117' to the list of known hosts.
+remote: Counting objects: 1241, done.
+remote: Compressing objects: 100% (771/771), done.
+remote: Total 1241 (delta 414), reused 1235 (delta 412)
+接收对象中: 100% (1241/1241), 48.48 MiB | 15.52 MiB/s, done.
+处理 delta 中: 100% (414/414), done.
+[root@iZm5eat7o13nmw3p7hg674Z code]#
+```
+
+15.52 MiB/s, 速度嗷嗷地. 
