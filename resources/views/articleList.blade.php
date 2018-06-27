@@ -6,22 +6,57 @@
 
         <div class="container">
             <h1>Article List</h1>
-            @forelse($articles as $article)
-                <div class="row">
-                    <div class="col-md-8">
-                        <a href="/article/{{ $article->url }}/{{ strtotime($article->created_at) }}">
-                            {{ $article->title }}
-                        </a>
-                    </div>
-                    <div class="col-md-2">
-                        <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
-                        {{ date("Y-m-d", strtotime($article->created_at)) }}
-                    </div>
-                    <div class="col-md-1">
-                        views: {{ $article->views }}
-                    </div>
-                    <div class="col-md-1">
-                        like: {{ $article->like }}
+            @forelse($info as $article)
+                <div style="border: solid 1px #ddd; margin-top: 10px;">
+                    <a href="/article/{{ $article['url'] }}/{{ strtotime($article['created_at']) }}">
+                        <div class="row">
+                            <div class="col-md-12">
+                                    <h3>
+                                        {{ $article['title'] }}
+                                    </h3>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                {{ $article['summary'] }}
+                            </div>
+                        </div>
+                    </a>
+
+                    <div class="row">
+                        <div class="col-md-1">
+                            like:
+                            {{ $article['like'] }}
+                        </div>
+
+                        <div class="col-md-1">
+                            click:
+                            {{ $article['views'] }}
+                        </div>
+
+                        <div class="col-md-2">
+                            create time:
+                            {{ date("Y-m-d", strtotime($article['created_at'])) }}
+                        </div>
+
+                        <div class="col-md-3">
+                            tags:
+                            @forelse ($article['has_many_tag'] as $tag)
+                                {{ $tag['tag_name'] }}
+                            @empty
+                                null
+                            @endforelse
+                        </div>
+                        <div class="col-md-3">
+                            categories:
+                            @forelse ($article['has_many_cate'] as $tag)
+                                {{ $tag['belongs_to_category']['name'] }}
+                            @empty
+                                null
+                            @endforelse
+                        </div>
+
                     </div>
                 </div>
             @empty

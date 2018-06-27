@@ -17,9 +17,15 @@ class EventServiceProvider extends ServiceProvider
         //     'App\Listeners\EventListener',
         // ],
 
+        // 文章浏览量
         'App\Events\ArticlePageViews' => [
             'App\Listeners\ArticlePageViewsHandle',
         ],
+
+        // 文章点赞
+        'App\Events\ArticleLike' => [
+            'App\Listeners\ArticleLikeHandle',
+        ]
     ];
 
     /**

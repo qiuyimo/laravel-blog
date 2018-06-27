@@ -19,7 +19,7 @@ class ArticleService
     public function getArticleByUrl(string $url, int $createTime)
     {
         return Article::query()->where('status', 1)->where('url', $url)->where('created_at', date("Y-m-d H:i:s", $createTime))->firstOrFail([
-            'id', 'title', 'url', 'description', 'keywords', 'weight', 'like', 'html', 'created_at', 'updated_at', 'status'
+            'id', 'title', 'url', 'description', 'keywords', 'weight', 'like', 'html', 'created_at', 'updated_at', 'status', 'views', 'summary'
         ]);
     }
 
@@ -31,13 +31,13 @@ class ArticleService
     {
         // $res = Article::with('hasManyTag')->with(['hasManyCate' => function ($query) {
         //     $query->with('belongsToCategory');
-        // }])->orderByDesc('updated_at')->limit(2)->get()->toArray();
+        // }])->orderByDesc('created_at')->limit(2)->get()->toArray();
         // dump($res);
         // die;
 
         $res = Article::with('hasManyTag')->with(['hasManyCate' => function ($query) {
             $query->with('belongsToCategory');
-        }])->orderByDesc('updated_at')->paginate(30);
+        }])->orderByDesc('created_at')->paginate(30);
 
         return $res;
     }

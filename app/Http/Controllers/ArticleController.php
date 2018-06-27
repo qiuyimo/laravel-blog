@@ -50,11 +50,16 @@ class ArticleController extends Controller
      */
     public function list()
     {
-        $page = (integer)(request()->route('page') ?: 1);
-
         $articles = $this->articleService->getArticleList();
 
-        return view('articleList', ['articles' => $articles]);
+        $info = [];
+        foreach ($articles as $article) {
+            $info[] = $article->toArray();
+            // dump($info);
+            // die;
+        }
+
+        return view('articleList', ['articles' => $articles, 'info' => $info]);
     }
 
     public function time()
