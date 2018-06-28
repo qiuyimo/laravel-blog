@@ -80,4 +80,21 @@ class ArticleController extends Controller
 
         return view('tags', ['tags' => $tags]);
     }
+
+    /**
+     * tag 对应的文章列表页.
+     * @param Request $request
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function tagList(Request $request)
+    {
+        $articles = $this->articleService->getArticleListByTagName($request->tagName);
+
+        $info = [];
+        foreach ($articles as $article) {
+            $info[] = $article->toArray();
+        }
+
+        return view('tagToArticleList', ['articles' => $articles, 'tagName' => $request->tagName, 'info' => $info]);
+    }
 }

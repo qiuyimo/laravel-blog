@@ -95,7 +95,7 @@
 <section id="cd-timeline" class="cd-container">
     <div id="cloud-tag">
         @foreach ($tags as $key => $tag)
-            <span><a href="#" id="0" tag-id="3">{{ $key }}</a></span>
+            <span><a href="/tag/{{ $key }}" id="0" tag-id="3">{{ $key }}</a></span>
         @endforeach
     </div>
 </section>

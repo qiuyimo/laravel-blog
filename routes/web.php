@@ -26,3 +26,5 @@ Route::get('time', 'ArticleController@time')->name('article-time');
 Route::get('es', 'ElasticsearchTestController@index');
 
 Route::get('tags', 'ArticleController@tags')->name('tags');
+
+Route::get('tag/{tagName}', 'ArticleController@tagList')->name('tags-list');
