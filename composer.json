@@ -9,14 +9,15 @@
         "barryvdh/laravel-debugbar": "^3.1",
         "barryvdh/laravel-ide-helper": "^2.4",
         "doctrine/dbal": "^2.7",
-        "elasticsearch/elasticsearch": "^6.0",
+        "elasticsearch/elasticsearch": "^5.3",
         "encore/laravel-admin": "1.5.5",
         "erusev/parsedown": "^1.7",
         "fideloper/proxy": "~3.3",
         "jellybool/translug": "^2.0",
         "laravel-admin-ext/helpers": "^1.0",
         "laravel/framework": "5.5.*",
-        "laravel/tinker": "~1.0"
+        "laravel/tinker": "~1.0",
+        "tamayo/laravel-scout-elastic": "^3.0"
     },
     "require-dev": {
         "filp/whoops": "~2.0",
