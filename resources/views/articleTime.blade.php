@@ -273,6 +273,14 @@
                 text-align: right;
             }
         }
+
+        a {
+            text-decoration: none;
+        }
+
+        .custom-hover > p:hover, .custom-hover > h2:hover {
+            color: #ffff00;
+        }
     </style>
 </head>
 
@@ -284,7 +292,9 @@
             </div>
 
             <div class="cd-timeline-content">
-                <h2>{{ $article['title'] }}</h2>
+                <a href="/article/{{ $article['url'] }}/{{ strtotime($article['created_at']) }}" class="custom-hover">
+                    <h2>{{ $article['title'] }}</h2>
+                </a>
                 <div class="timeline-content-info">
                     <span class="timeline-content-info-title">
                         <i class="fa fa-certificate" aria-hidden="true"></i>
@@ -298,8 +308,10 @@
                     </span>
                 </div>
 
-                <p>{{ $article['summary'] }}</p>
-                <span class="cd-date">{{ date("Y-m-d", strtotime($article['created_at'])) }}</span>
+                <a href="/article/{{ $article['url'] }}/{{ strtotime($article['created_at']) }}" class="custom-hover">
+                    <p>{{ $article['summary'] }}</p>
+                    <span class="cd-date">{{ date("Y-m-d", strtotime($article['created_at'])) }}</span>
+                </a>
 
                 <ul class="content-skills">
                     @foreach ($article['has_many_tag'] as $tag)
@@ -313,26 +325,6 @@
 </section>
 
 <script>
-    var $element = $('.each-event, .title');
-    var $window = $(window);
-    $window.on('scroll resize', check_for_fade);
-    $window.trigger('scroll');
-
-    function check_for_fade() {
-        var window_height = $window.height();
-
-        $.each($element, function (event) {
-            var $element = $(this);
-            var element_height = $element.outerHeight();
-            var element_offset = $element.offset().top;
-            space = window_height - (element_height + element_offset - $(window).scrollTop());
-            if (space < 60) {
-                $element.addClass("non-focus");
-            } else {
-                $element.removeClass("non-focus");
-            }
-        });
-    };
 </script>
 </body>
 </html>
