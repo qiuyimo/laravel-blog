@@ -6,7 +6,6 @@ use Illuminate\Http\Request;
 use App\Services\ArticleService;
 use Illuminate\Support\Facades\Event;
 use App\Events\ArticlePageViews;
-use App\Models\Article;
 
 class ArticleController extends Controller
 {
@@ -60,10 +59,25 @@ class ArticleController extends Controller
         return view('articleList', ['articles' => $articles, 'info' => $info]);
     }
 
+    /**
+     * 时间轴页面.
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function time()
     {
         $article = $this->articleService->getAllArticleByTime();
 
         return view('articleTime', ['articles' => $article]);
+    }
+
+    /**
+     * tags页面.
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function tags()
+    {
+        $tags = $this->articleService->getTagInfo();
+
+        return view('tags', ['tags' => $tags]);
     }
 }

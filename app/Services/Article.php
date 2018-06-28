@@ -5,6 +5,7 @@ namespace App\Services;
 use App\Models\Article;
 use App\Models\ArticleCategory;
 use App\Models\Category;
+use App\Models\Tag;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Cache;
 use Psr\SimpleCache\InvalidArgumentException;
@@ -91,5 +92,16 @@ class ArticleService
                 abort(404);
             }
         }
+    }
+
+    /**
+     * 获取所有的 tag 信息和关联的文章标题.
+     * @return Tag[]|\Illuminate\Database\Eloquent\Builder[]|\Illuminate\Database\Eloquent\Collection|\Illuminate\Support\Collection
+     */
+    public function getTagInfo()
+    {
+        return Tag::with(['belongsToArticle' => function ($query) {
+            $query->select('id', 'title', 'url', 'created_at');
+        }])->get()->groupBy('tag_name')->toArray();
     }
 }
