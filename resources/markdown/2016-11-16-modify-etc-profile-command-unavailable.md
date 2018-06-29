@@ -3,7 +3,7 @@ title: 修改/etc/profile文件后, 命令不可用的解决方法
 description: 修改/etc/profile文件后, 命令不可用的解决方法
 keywords: Linux, /etc/profile
 create_time: 2016-11-16
-tag: Linux, /etc/profile
+tag: Linux
 category: Linux
 ---
 
