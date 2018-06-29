@@ -4,7 +4,7 @@ description: composer的global使用
 keywords: Linux, composer, php
 create_time: 2018-01-21
 tag: Linux, composer, php
-category: Tools
+category: 笔记
 ---
 
 之前一直很羡慕 `python` 的 `pip`, 羡慕 `nodejs` 的 `npm`, 羡慕 `ruby` 的 `gem`.

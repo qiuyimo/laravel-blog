@@ -1,6 +1,6 @@
 ---
 title: 搭建svn服务器
-category: Tools
+category: 笔记
 description: 搭建svn服务器
 keywords: svn
 tag: svn

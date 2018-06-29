@@ -4,7 +4,7 @@ description: 命令行中的输出替换字符
 keywords: PHP, Linux, 命令行中的输出替换字符
 create_time: 2017-11-04
 tag: PHP, Linux
-category: Linux
+category: 笔记
 ---
 
 只需要输出\r\033[2K字符，就能实现清除当前行并光标回到行首

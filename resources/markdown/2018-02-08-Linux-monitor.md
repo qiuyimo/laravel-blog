@@ -4,7 +4,7 @@ description: Linux-性能分析
 keywords: Linux
 create_time: 2018-02-08
 tag: Linux
-category: Linux, 计算机
+category: 笔记
 ---
 
 (未完结) 服务器的性能分析, 很多的参数, 让人眼花缭乱, 记录一些常用的指标. 方便你我他.

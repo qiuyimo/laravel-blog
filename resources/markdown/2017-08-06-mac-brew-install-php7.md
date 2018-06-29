@@ -4,7 +4,7 @@ description: mac使用brew安装php7
 keywords: PHP
 create_time: 2017-08-06
 tag: PHP
-category: PHP
+category: 笔记
 ---
 
 mac自带的php, 版本太低, 安装扩展也比较麻烦. 开发机, 没必要重新编译安装扩展吧, 直接使用`brew`多好. 所以, 准备重新装`php7`.

@@ -4,7 +4,7 @@ description: php爬虫环境的搭建
 keywords: selenium, phantomjs, php-selenium
 create_time: 2017-03-20
 tag: selenium, phantomjs, php-selenium
-category: Linux
+category: 笔记
 ---
 
 公司要用爬虫, 所以在我的mac上搭建了2次, 但是与Linux服务器上的搭建还是有区别的, 所以我又一次搭建这个爬虫环境. 哎. 从phper变成了运维. 

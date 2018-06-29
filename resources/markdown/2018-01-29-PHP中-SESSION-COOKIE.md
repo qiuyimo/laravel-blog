@@ -4,7 +4,7 @@ description: PHP中的SESSION和COOKIE
 keywords: PHP, SESSION, Cookie
 create_time: 2018-01-29
 tag: PHP, SESSION, Cookie
-category: PHP
+category: 笔记
 ---
 
 本来是在找IoC和DI的资料, 不知道怎么的, 进入了一个介绍 `session` 和 `cookie` 的文章.

@@ -4,7 +4,7 @@ description: screen下. 中文乱码问题解决方法
 keywords: Screen, Linux
 create_time: 2017-06-26
 tag: Screen, Linux
-category: Linux
+category: 笔记
 ---
 
 screen下. 中文乱码问题解决方法

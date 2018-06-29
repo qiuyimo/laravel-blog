@@ -4,7 +4,7 @@ description: MySQL语句的执行顺序
 keywords: MySQL, 执行顺序
 create_time: 2016-11-23
 tag: MySQL, 执行顺序
-category: SQL
+category: 笔记
 ---
 
 MySQL的语句一共分为 11 步. 理解了这 11 步, 才能写出正确的 sql 语句. 别问我为什么.

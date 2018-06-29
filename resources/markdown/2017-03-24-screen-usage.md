@@ -1,6 +1,6 @@
 ---
 title: screen的使用方法和应用场景
-category: Linux, PHP
+category: 笔记
 description: screen的使用方法和应用场景
 keywords: Linux, screen
 create_time: 2018-06-23 00:30:28

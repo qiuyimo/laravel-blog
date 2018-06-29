@@ -4,7 +4,7 @@ description: Redis的高级实用特性——发布及订阅消息
 keywords: Redis
 create_time: 2017-08-05
 tag: Redis
-category: Redis
+category: 笔记
 ---
 
 **发布订阅(pub/sub)**是一种消息通信模式，主要的目的是解耦消息发布者和消息订阅者之间的耦合，这点和设计模式中的观察者模式比较相似。

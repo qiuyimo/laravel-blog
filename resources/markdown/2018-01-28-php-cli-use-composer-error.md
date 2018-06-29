@@ -4,7 +4,7 @@ description: php在cli下使用composer报错
 keywords: PHP, composer, error
 create_time: 2018-01-28
 tag: PHP, composer, error
-category: PHP
+category: 笔记
 ---
 
 在命令行下使用`php -v`, 显示的是7.1的版本.

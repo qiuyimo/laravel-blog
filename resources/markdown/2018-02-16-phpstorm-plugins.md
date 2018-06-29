@@ -4,7 +4,7 @@ description: 打造自己的专属神器, phpstorm IDE
 keywords: Tool, PHPStorm, IDE
 create_time: 2018-02-16
 tag: Tool, PHPStorm, IDE
-category: Tools
+category: 笔记
 ---
 
 ## 合理的使用插件, 能够显著的提高工作效率, 这里搜集一些我知道的实用插件.

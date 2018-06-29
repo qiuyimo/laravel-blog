@@ -4,7 +4,7 @@ description: php使用selenium
 keywords: PHP
 create_time: 2017-03-20
 tag: PHP
-category: PHP
+category: 笔记
 ---
 
 参考: http://facebook.github.io/php-webdriver/latest/Facebook/WebDriver/Remote/RemoteWebDriver.html

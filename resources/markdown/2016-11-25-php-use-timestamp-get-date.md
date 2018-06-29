@@ -4,7 +4,7 @@ description: 根据时间戳, 获取月的第一天和最后一天, 周的第一
 keywords: PHP, 周的第一天, 周的最后一天
 create_time: 2016-11-25
 tag: PHP
-category: PHP
+category: 笔记
 ---
 
 # 根据时间戳, 获取月的第一天和最后一天, 周的第一天和最后一天

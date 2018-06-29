@@ -4,7 +4,7 @@ description: PHP异常机制的使用场景
 keywords: PHP, 异常, Exception
 create_time: 2018-01-27
 tag: PHP, 异常, Exception
-category: PHP
+category: 笔记
 ---
 
 在写代码的过程中, 最痛苦的就是, 每次调用一个方法, 都需要判断返回值. 严重的影响了代码的可读性和布局.

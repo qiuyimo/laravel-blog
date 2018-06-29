@@ -4,7 +4,7 @@ description: 版本号的规范
 keywords: version, composer
 create_time: 2018-01-21
 tag: version, composer
-category: PHP
+category: 笔记
 ---
 
 版本号是随意弄的么? NO, 是有指定意义的. SO, 了解还是有必要的.

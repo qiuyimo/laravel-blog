@@ -4,7 +4,7 @@ description: ThinkPHP中M()与D()的区别
 keywords: PHP, ThinkPHP
 create_time: 2016-12-26
 tag: PHP, ThinkPHP
-category: PHP
+category: 笔记
 ---
 
 ThinkPHP中M()与D()的区别

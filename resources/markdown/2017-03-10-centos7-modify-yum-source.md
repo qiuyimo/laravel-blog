@@ -4,7 +4,7 @@ description: CeontOS7 更改yum源的详细方法, 以及注意事项. 亲测ok.
 keywords: yum, CeontOS
 create_time: 2017-03-10
 tag: yum, CeontOS
-category: Linux
+category: 笔记
 ---
 
 

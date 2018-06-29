@@ -1,6 +1,6 @@
 ---
 title: smarty中的foreach遍历和时间转换
-category: HTML
+category: 笔记
 description: smarty中的foreach遍历和时间转换
 keywords: smarty
 create_time: 2015-11-21

@@ -1,6 +1,6 @@
 ---
 title: 同时推送代码到 GitHub Coding
-category: 心得
+category: 笔记
 tag: Git
 create_time: 2018-06-27 23:18:01
 keywords: Git, GitHub, Coding

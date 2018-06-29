@@ -4,7 +4,7 @@ description: ubuntu下的装php
 keywords: linux
 create_time: 2017-07-28
 tag: linux
-category: Linux
+category: 笔记
 ---
 
 安装php源报错

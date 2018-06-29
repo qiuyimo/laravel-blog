@@ -4,7 +4,7 @@ description: workerman学习笔记
 keywords: PHP, WorkerMan
 create_time: 2018-03-27
 tag: PHP, WorkerMan
-category: PHP
+category: 笔记
 ---
 
 WorkerMan 是一个纯 PHP 写的 Socket 通讯框架. 学习这个再学习 Swoole, 应该就容易多了. 这里记录了查看 WorkerMan 源码遇到的东西.
