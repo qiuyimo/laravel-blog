@@ -158,8 +158,11 @@ class PushMarkdown extends Command
 
                 // 创建新分类. 记录 article category 的关系.
                 $categories = explode(',', trim($markdown['category'] ?? ''));
+
+                $categoryUpWord = [];
                 if ($categories) {
                     foreach ($categories as $key => $category) {
+                        $categoryUpWord[] = trim(strtoupper($category));
                         // 创建新分类
                         $categoryData = Category::query()->firstOrCreate(['name' => trim(strtoupper($category))], ['description' => '', 'image_url' => ''])->toArray();
 
@@ -171,14 +174,51 @@ class PushMarkdown extends Command
                     }
                 }
 
+                // 删除 markdown 中不存在, 但是 category 表中存在的分类.
+                $categoryData = ArticleCategory::query()->with('belongsToCategory')->where('article_id', $articleData['id'])->get();
+                if ($categoryData) {
+                    $cate = [];
+                    foreach ($categoryData->toArray() as $key => $val) {
+                        $cate[$val['belongs_to_category']['name']] = $val;
+                    }
+
+                    $data = [];
+                    foreach ($cate as $key => $val) {
+                        $data[] = $val['belongs_to_category']['name'];
+                    }
+                    $res = collect($data)->flatten()->diff($categoryUpWord)->toArray();
+                    if ($res) {
+                        foreach ($res as $key => $val) {
+                            ArticleCategory::query()->where('id', $cate[$val]['id'])->delete();
+                            $this->warn('删除 article_category: ' . $cate[$val]['belongs_to_category']['name']);
+
+                            if (!(ArticleCategory::query()->where('category_id', $cate[$val]['category_id'])->first(['id']))) {
+                                Category::query()->where('id', $cate[$val]['category_id'])->delete();
+                                $this->warn('删除 category: ' . $cate[$val]['belongs_to_category']['name']);
+                            }
+                        }
+                    }
+                }
+
                 // 获取 tags, 记录到 tag 表中.
                 $tags = explode(',', trim($markdown['tag'] ?? ''));
                 if ($tags) {
+                    $tagsUpWord = [];
                     foreach ($tags as $key => $tag) {
+                        $tagsUpWord[] = trim(strtoupper($tag));
                         $tagInfo = [];
                         $tagInfo['article_id'] = $articleData['id'];
                         $tagInfo['tag_name'] = trim(strtoupper($tag));
                         Tag::query()->firstOrCreate($tagInfo)->toArray();
+                    }
+
+                    // 删除 markdown 中不存在, 但是 tag 表中存在的 tag.
+                    $tagData = Tag::query()->where('article_id', $articleData['id'])->get(['tag_name'])->toArray();
+                    if ($diff = collect($tagData)->flatten()->diff($tagsUpWord)->toArray()) {
+                        foreach ($diff as $val) {
+                            Tag::query()->where('article_id', $articleData['id'])->where('tag_name', $val)->delete();
+                            $this->warn('删除tag: ' . $val);
+                        }
                     }
                 }
 

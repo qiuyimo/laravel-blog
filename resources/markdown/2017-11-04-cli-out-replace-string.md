@@ -3,7 +3,7 @@ title: 命令行中的输出替换字符
 description: 命令行中的输出替换字符
 keywords: PHP, Linux, 命令行中的输出替换字符
 create_time: 2017-11-04
-tag: PHP, Linux, 命令行中的输出替换字符
+tag: PHP, Linux
 category: Linux
 ---
 

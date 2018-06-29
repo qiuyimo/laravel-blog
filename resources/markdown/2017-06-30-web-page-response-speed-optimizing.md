@@ -3,7 +3,7 @@ title: 页面响应速度优化
 description: 页面响应速度优化
 keywords: 页面响应速度优化
 create_time: 2017-06-30
-tag: 页面响应速度优化
+tag: 优化
 category: ESSAY
 ---
 
