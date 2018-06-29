@@ -24,9 +24,9 @@
                 </a>
 
                 <div class="row">
+                    <div class="col-md-2">{{ date("Y-m-d", strtotime($article['created_at'])) }}</div>
                     <div class="col-md-1">like:{{ $article['like'] }}</div>
                     <div class="col-md-1">click:{{ $article['views'] }}</div>
-                    <div class="col-md-2">create time:{{ date("Y-m-d", strtotime($article['created_at'])) }}</div>
                     <div class="col-md-3">tags:@forelse ($article['has_many_tag'] as $tag) {{ $tag['tag_name'] }} @empty null @endforelse</div>
                     <div class="col-md-3">categories:@forelse ($article['has_many_cate'] as $tag) {{ $tag['belongs_to_category']['name'] }} @empty null @endforelse</div>
                 </div>

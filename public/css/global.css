@@ -16,3 +16,16 @@ body {
 a {
     text-decoration: none;
 }
+
+.pagination>li>a,
+.pagination>li>span,
+.pagination>.disabled>a,
+.pagination>.disabled>a:focus,
+.pagination>.disabled>a:hover,
+.pagination>.disabled>span,
+.pagination>.disabled>span:focus,
+.pagination>.disabled>span:hover {
+    color: #afb0b7;
+    background-color: #001a35;
+    border: 1px solid #ddd;
+}
