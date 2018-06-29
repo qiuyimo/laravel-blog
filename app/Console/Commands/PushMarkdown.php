@@ -218,7 +218,7 @@ class PushMarkdown extends Command
      */
     public function saveInvalid($fileName, $log, $type = 1)
     {
-        InvalidMarkdown::query()->updateOrCreate(['file_name' => $fileName], ['log' => $log, 'type' => $type 'updated_at' => date("Y-m-d H:i:s", time())]);
+        InvalidMarkdown::query()->updateOrCreate(['file_name' => $fileName], ['log' => $log, 'type' => $type, 'updated_at' => date("Y-m-d H:i:s", time())]);
         $this->error('log: ' . $log . ' fileName: ' . $fileName);
     }
 }
