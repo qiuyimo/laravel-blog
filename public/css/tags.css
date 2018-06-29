@@ -1,0 +1,80 @@
+.cd-container {
+    width: 90%;
+    max-width: 1080px;
+    min-height: 100%;
+    margin: 0 auto;
+    background: #2B343A;
+    padding: 0 10%;
+    border-radius: 2px;
+}
+
+.cd-container::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+
+
+#cloud-tag {
+    width: 888px;
+    margin: 0 auto;
+    padding: 2em 0;
+    position: relative;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    padding-top: 100px;
+}
+#cloud-tag span {
+    float: left;
+    display: block;
+    position: relative;
+}
+
+#cloud-tag .word-1 {
+    top: 1em;
+    left: 1.5em;
+}
+
+#cloud-tag .word-2 {
+    top: 0;
+    left: 1em;
+}
+#cloud-tag .word-3 {
+    top: 1em;
+    left: 1.5em;
+    font-size: 60px;
+}
+
+#cloud-tag .word-4 {
+    top: 1em;
+    left: 0;
+    -moz-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+#cloud-tag .word-5 {
+    top: 1.5em;
+    right: -0.3em;
+    -moz-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+#cloud-tag .word-6 {
+    bottom: 0;
+    right: 1em;
+}
+
+#cloud-tag .word-7 {
+    bottom: 0.6em;
+    left: 0;
+    -moz-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
