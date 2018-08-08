@@ -4,7 +4,7 @@ description:
 keywords: PHP
 create_time: 2017-03-20
 tag: PHP
-category: PHP
+category: 笔记
 ---
 
 PHP方法中参数太多, 怎么写呢? 今天看到了一个格式, 感觉非常不错哦. 就记录一下. 大家可以参考一下. 

@@ -4,7 +4,7 @@ description: phpDoc描述数组
 keywords: PHP, phpDoc, Array
 create_time: 2018-01-25
 tag: PHP, phpDoc, Array
-category: PHP
+category: 笔记
 ---
 
 psr的规范中找不到数组应该如何的注释. 只能查一些第三方的资料. 来看看别人是如何注释数组的. 特此记录.

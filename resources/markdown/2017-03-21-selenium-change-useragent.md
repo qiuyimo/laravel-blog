@@ -4,7 +4,7 @@ description: php-selenium更改useragent, 更改浏览器名称
 keywords: php, selenium, phantomjs
 create_time: 2017-03-21
 tag: php, selenium, phantomjs
-category: PHP
+category: 笔记
 ---
 
 只用phantomjs无头浏览器, 需要更改一下useragent, 在google的文档上一直没找到. 最后在http://www.kancloud.cn/wangking/selenium/235055, 在这里找到了答案. 代码如下:

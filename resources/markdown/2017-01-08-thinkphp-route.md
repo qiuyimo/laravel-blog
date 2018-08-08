@@ -4,7 +4,7 @@ description: ThinkPHP的路由
 keywords: PHP, ThinkPHP, 路由
 create_time: 2017-01-08
 tag: PHP, ThinkPHP, 路由
-category: PHP
+category: 笔记
 ---
 
 之前分析了ThinkPHP在执行指定的方法之前的步骤. 

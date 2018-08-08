@@ -4,7 +4,7 @@ description: 多条件查询时MYSQL语句的PHP写法
 keywords: PHP, 多条件查询, SQL
 create_time: 2016-11-19
 tag: PHP, 多条件查询, SQL
-category: [PHP, SQL]
+category: 笔记
 ---
 
 # 多条件查询时MYSQL语句的PHP写法

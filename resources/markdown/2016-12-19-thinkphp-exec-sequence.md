@@ -4,7 +4,7 @@ description: ThinkPHP学习笔记, 执行流程
 keywords: PHP, ThinkPHP
 create_time: 2016-12-19
 tag: PHP, ThinkPHP
-category: PHP
+category: 笔记
 ---
 
 ThinkPHP学习笔记, 执行流程, 不断更新ing

@@ -4,7 +4,7 @@ description: linux中特殊符号的意义
 keywords: linux
 create_time: 2017-07-17
 tag: linux
-category: Linux
+category: 笔记
 ---
 
 备忘

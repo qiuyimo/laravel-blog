@@ -4,7 +4,7 @@ description: 阅读wordpress源码
 keywords: php, wordpress
 create_time: 2017-01-08
 tag: php, wordpress
-category: PHP
+category: 笔记
 ---
 
 wordpress最为使用最广泛的开源博客, 在国内也有很大的用户量, 多了解一些肯定是没错的. 听说wordpress是面向过程的. 具体的还得看源码啊.

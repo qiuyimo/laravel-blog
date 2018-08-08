@@ -4,7 +4,7 @@ description: 在CentOS7环境下安装chrome浏览器
 keywords: linux
 create_time: 2017-07-18
 tag: linux
-category: Linux
+category: 笔记
 ---
 
 

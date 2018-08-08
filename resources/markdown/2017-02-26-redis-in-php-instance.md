@@ -4,7 +4,7 @@ description: redis在php中的应用实例
 keywords: redis
 create_time: 2017-02-26
 tag: redis
-category: Linux
+category: 笔记
 ---
 
 ## 安装

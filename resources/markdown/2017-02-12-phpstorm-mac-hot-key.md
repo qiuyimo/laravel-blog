@@ -4,7 +4,7 @@ description: phpstorm的mac快捷键
 keywords: phpstorm, hot key, 快捷键
 create_time: 2017-02-12
 tag: phpstorm, hot key, 快捷键
-category: Tools
+category: 笔记
 ---
 
 快捷键是效率开发的基础. 

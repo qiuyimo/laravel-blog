@@ -4,7 +4,7 @@ description: iterm2添加连接远程服务器的脚本. 方便以后连接服�
 keywords: iterm2, iterm
 create_time: 2017-03-22
 tag: iterm2, iterm
-category: Tools
+category: 笔记
 ---
 
 iterm2添加连接远程服务器的脚本. 方便以后连接服务器, 使用起来太方便了.

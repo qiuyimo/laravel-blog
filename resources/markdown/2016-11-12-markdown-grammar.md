@@ -4,7 +4,7 @@ description: markdown的语法, 以及在mweb中的使用方法.
 keywords: markdown, mweb
 create_time: 2016-11-12
 tag: markdown, mweb
-category: Tools
+category: 笔记
 ---
 
 markdown 是写作的利器. 语法也很简单. 如果你还在用 word 记录你的笔记. 那你就out了.

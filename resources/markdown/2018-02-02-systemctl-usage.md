@@ -4,7 +4,7 @@ description: systemctl的使用
 keywords: Linux
 create_time: 2018-02-02
 tag: Linux
-category: Linux
+category: 笔记
 ---
 
 在项目中, 总会用到各种的服务. 如果这个服务没有封装, 我一般都会用`nohug`来后台运行.

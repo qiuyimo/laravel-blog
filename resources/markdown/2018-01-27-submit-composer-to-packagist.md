@@ -4,7 +4,7 @@ description: 使用composer发布到packagist
 keywords: PHP, composer, packagist
 create_time: 2018-01-27
 tag: PHP, composer, packagist
-category: PHP
+category: 笔记
 ---
 
 一直在使用 `composer` 的基础功能, 平时没事的时候也会去 `packagist.org` 上面去看看优秀的 `package`, 总是想自己也发布点东西上去.

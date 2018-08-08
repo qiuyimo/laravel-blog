@@ -3,8 +3,8 @@ title: redis 报错
 description: redis 报错
 keywords: redis 报错
 create_time: 2017-04-08
-tag: redis 报错
-category: Redis
+tag: redis
+category: 笔记
 ---
 
 ```bash

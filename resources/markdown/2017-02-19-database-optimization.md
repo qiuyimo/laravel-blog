@@ -4,7 +4,7 @@ description: 个人总结的数据库优化, 普通程序员最实用的方法
 keywords: MySQL, MySQL优化
 create_time: 2017-02-19
 tag: MySQL, MySQL优化
-category: SQL
+category: 笔记
 ---
 
 最近面试, 感觉数据库优化肯定会问, 所以就自己先总结一下. 网上别人说的是他们的方案, 我现在接触到的就这么多. 

@@ -4,7 +4,7 @@ description: phpcs的使用
 keywords: PHP, Linux, phpcs
 create_time: 2018-01-21
 tag: PHP, Linux, phpcs
-category: PHP
+category: 笔记
 ---
 
 遇到队友不按套路出牌, 怎么办, 拟定好代码风格, 开发的时候却不执行. 没关系. 可以使用 `phpcs` 来约束他.

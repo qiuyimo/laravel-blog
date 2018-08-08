@@ -4,7 +4,7 @@ description: ThinkPHP的源码阅读, 数据库是如何连接的.
 keywords: PHP, ThinkPHP
 create_time: 2016-12-30
 tag: PHP, ThinkPHP
-category: PHP
+category: 笔记
 ---
 
 之前分析了ThinkPHP在执行指定的方法之前的步骤. 链接: [ThinkPHP学习笔记](http://www.qiuyuhome.com/?p=93)

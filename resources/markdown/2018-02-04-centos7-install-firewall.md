@@ -4,7 +4,7 @@ description: centos7中配置防火墙
 keywords: Linux, firewall, firewalld, 防火墙
 create_time: 2018-02-04
 tag: Linux, firewall, firewalld, 防火墙
-category: Linux
+category: 笔记
 ---
 
 ## 参考

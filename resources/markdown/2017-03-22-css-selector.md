@@ -4,7 +4,7 @@ description: CSS选择器
 keywords: CSS, CSS选择器, CssSelecter
 create_time: 2017-03-22
 tag: CSS, CSS选择器, CssSelecter
-category: HTML
+category: 笔记
 ---
 
 作为网站开发者, css样式的应用场景实在是太多了, 虽然前端写的很少, 但是js中用css选择器处理html总会遇到, 所以转载了这篇文章. 都是干货.
